@@ -42,7 +42,7 @@ npm install
 Create a `.env` file (already present) and add:
 
         PORT=8001
-        MONGO_URI=your_mongo_connection_string
+        MONGO_URI=mongodb://localhost:27017/your_database_name
         JWT_SECRET=your_jwt_secret_key
 
 4.	Run the server:
