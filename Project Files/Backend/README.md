@@ -39,7 +39,7 @@ cd backend
 npm install
 3.	Set environment variables
 
-Create a `.env` file (already present) and add:
+Update your credentials in `.env` file (already present) :
 
         PORT=8001
         MONGO_URI=mongodb://localhost:27017/your_database_name
