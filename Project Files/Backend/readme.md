@@ -1,6 +1,6 @@
 Healthcare Appointment System – Backend Setup Guide
 📁 Project Structure
-
+```
 backend/
 │
 ├── .env                         # Environment variables (PORT, DB URI, JWT_SECRET)
@@ -23,7 +23,7 @@ backend/
 │   └── userModel.js            # Mongoose schema for users
 ├── uploads/                    # File upload directory (e.g., profile photos)
 └── .gitignore
-
+```
 🚀 Key Features
 •	• User Management: Registration, login, role-based access
 •	• Doctor Applications: Users can apply; Admin can approve/reject
