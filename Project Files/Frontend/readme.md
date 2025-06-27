@@ -1,23 +1,23 @@
-Healthcare Appointment System – Frontend Setup Guide
-📁 Project Structure
+#Healthcare Appointment System – Frontend Setup Guide
+##📁 Project Structure
 
 frontend/
 │
-├── public/                    # Static files
-│   └── index.html             # HTML template
+├── public/ # Static files
+│ └── index.html # HTML template
 │
-├── src/                       # Application source
-│   ├── components/
-│   │   ├── admin/             # Admin dashboards and management pages
-│   │   ├── common/            # Shared UI components (Login, Register, Home, etc.)
-│   │   └── user/              # User-specific actions like applying for doctor
-│   ├── App.jsx                # Root component with routing logic
-│   ├── App.css                # Global styles
-│   ├── index.js               # React entry point
-│   └── router.js              # React Router configuration
+├── src/ # Application source
+│ ├── components/
+│ │ ├── admin/ # Admin dashboards and management pages
+│ │ ├── common/ # Shared UI components (Login, Register, Home, etc.)
+│ │ └── user/ # User-specific actions like applying for doctor
+│ ├── App.jsx # Root component with routing logic
+│ ├── App.css # Global styles
+│ ├── index.js # React entry point
+│ └── router.js # React Router configuration
 │
 ├── .gitignore
-├── package.json               # Project metadata and dependencies
+├── package.json # Project metadata and dependencies
 ├── package-lock.json
 └── README.md
 
