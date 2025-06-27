@@ -161,14 +161,18 @@ const UserAppointments = () => {
                     <td>{appointment.date}</td>
                     <td>{appointment.userInfo.phone}</td>
                     <td>
-                      <Button
-                        variant="outline-primary"
-                        size="sm"
-                        onClick={() => handleDownload(appointment.document.path, appointment._id)}
-                      >
-                        <FiDownload className='me-1' />
-                        {appointment.document.filename}
-                      </Button>
+                      {appointment.document ? (
+                        <Button
+                          variant="outline-primary"
+                          size="sm"
+                          onClick={() => handleDownload(appointment.document.path, appointment._id)}
+                        >
+                          <FiDownload className='me-1' />
+                          {appointment.document.filename}
+                        </Button>
+                      ) : (
+                        <span style={{ color: 'gray', fontStyle: 'italic' }}>No Document</span>
+                      )}
                     </td>
                     <td>
                       <span className={`badge ${appointment.status === 'approved' ? 'bg-success' : 'bg-warning text-dark'}`}>
